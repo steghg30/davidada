@@ -1,0 +1,28 @@
+ while True:
+        print("Bienvenido a la automotora Auto Seguro, por favor registre datos de vehiculo")
+        print("1.opcion, tipo de Vehiculo")
+        print("2.opcion, patente de Vehiculo ")
+        print("3.opcion, marca y precio")
+        print("4.opcion, multas (monto y fecha)")
+        print("5.opcion, fecha de registro y nombre del dueño")
+        print("6.opcion, salir")  
+        
+        opc = int(input("ingrese tipo y patente de vehiculo"))
+
+        def tipo_Vehiculo():
+           Vehiculo1 = int(input("ingrese tipo de Vehiculo: "))
+           patente_Vehiculo = int(input("ingrese patente de Vehiculo: "))
+           
+           print("la patente ingresa pertecena al tipo de auto: ", tipo_Vehiculo(Vehiculo1, patente_Vehiculo))
+        
+        def mostrar_marca_precio():
+          marca_precio = input(" escriba la marca del Vehiculo: ")
+          marca_precio = input(" buscar el precio por marca y tipo de vehiculo ")
+          
+          print("la marca y precio del vehiculo sellecionado es: ", marca_precio( vehiculo, precio))
+          
+        def multas_monto_fecha():
+          multas_monto_fecha = int(input(" ver registro de multas "))
+          multas_monto_fecha = int(input(" buscar fecha y monto de la multa"))
+
+          print("la fecha y el monto de la multa es: ", multa( fecha, monto))
